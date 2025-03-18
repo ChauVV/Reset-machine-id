@@ -1,0 +1,40 @@
+{
+  "name": "cursor-reset-id",
+  "displayName": "ResetID",
+  "description": "Reset Cursor Machine ID",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursor-reset-id.reset",
+        "title": "ResetID: Reset Machine ID"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "cursor-reset-id.reset",
+        "key": "ctrl+shift+p",
+        "mac": "cmd+shift+p"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x",
+    "eslint": "^8.47.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1"
+  }
+}
