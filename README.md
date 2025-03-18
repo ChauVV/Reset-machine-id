@@ -1,30 +1,29 @@
 # ResetID Extension for Cursor
 
-This extension allows you to reset your Cursor Machine ID with a simple command.
+Extension này cho phép bạn reset Cursor Machine ID thông qua Command Palette.
 
-## Features
+## Tính năng
 
-- Reset Cursor Machine ID with a single command
-- Keyboard shortcut: `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-- Command palette integration
+- Reset Cursor Machine ID với một lệnh đơn giản
+- Tích hợp với Command Palette
 
-## Usage
+## Cách sử dụng
 
-1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-2. Type "ResetID" in the command palette
-3. Select "ResetID: Reset Machine ID"
-4. The extension will execute the reset script and show a success message
+1. Nhấn `Ctrl+Shift+P` để mở Command Palette
+2. Gõ "ResetID" 
+3. Chọn "ResetID: Reset Machine ID" từ danh sách
+4. Extension sẽ thực thi script reset và hiển thị thông báo khi hoàn thành
 
-## Installation
+## Cài đặt
 
-1. Copy all files to your Cursor extensions folder:
+1. Copy tất cả files vào thư mục extensions của Cursor:
    - Windows: `%USERPROFILE%\.cursor\extensions\cursor-reset-id`
    - macOS: `~/.cursor/extensions/cursor-reset-id`
    - Linux: `~/.cursor/extensions/cursor-reset-id`
 
-2. Restart Cursor
+2. Khởi động lại Cursor
 
-## Requirements
+## Yêu cầu
 
-- Cursor version 1.80.0 or higher
-- Windows operating system (for the batch file execution) 
+- Cursor phiên bản 1.80.0 trở lên
+- Hệ điều hành Windows 

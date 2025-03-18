@@ -3,26 +3,23 @@
   "displayName": "ResetID",
   "description": "Reset Cursor Machine ID",
   "version": "0.0.1",
+  "publisher": "cursor-extensions",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:cursor-reset-id.reset"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "cursor-reset-id.reset",
-        "title": "ResetID: Reset Machine ID"
-      }
-    ],
-    "keybindings": [
-      {
-        "command": "cursor-reset-id.reset",
-        "key": "ctrl+shift+p",
-        "mac": "cmd+shift+p"
+        "category": "Cursor",
+        "title": "Reset Machine ID"
       }
     ]
   },
