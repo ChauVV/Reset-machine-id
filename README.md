@@ -27,3 +27,9 @@ Extension này cho phép bạn reset Cursor Machine ID thông qua Command Palett
 
 - Cursor phiên bản 1.80.0 trở lên
 - Hệ điều hành Windows 
+
+npm install -g @vscode/vsce
+
+vsce package
+
+drap drop new file.vsix to extenrion
